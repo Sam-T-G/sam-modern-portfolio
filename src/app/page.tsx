@@ -5,8 +5,8 @@ const Home = () => {
     <>
       <header>
         <div className="container mx-auto flex flex-wrap p5 flex-col md:flex-row items-center">
-          <a className="flex title-font">
-            <h1>Sam Gerungan</h1>
+          <a className="flex font-medium items-center mb-4 md:mb-0">
+            <h1 className="ml-3 text-2xl">Sam Gerungan</h1>
           </a>
         </div>
       </header>
