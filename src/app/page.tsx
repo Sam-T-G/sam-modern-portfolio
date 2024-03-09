@@ -26,10 +26,12 @@ const Home = () => {
       </header>
 
       <main className="text-slate-100 body-font">
-        <div className="container mx-auto flex flex-wrap py-5 px-24 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <p className="hidden lg:block text-xl my-1">Software Engineer</p>
-            <h1 className="text-5xl">Samuel Gerungan</h1>
+            <h1 className="title-font sm:text-4xl text-5xl mb-4 font-medium">
+              Samuel Gerungan
+              <p className="hidden lg:block text-xl my-1">Software Engineer</p>
+            </h1>
             <p className="my-5 leading-relaxed ml-1">
               Software Engineer with an eye for design, passion for innovation,
               and meticulous attention to detail
