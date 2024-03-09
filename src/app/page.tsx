@@ -28,9 +28,23 @@ const Home = () => {
       <main className="text-slate-100 body-font">
         <div className="container mx-auto flex flex-wrap py-5 px-24 md:flex-row flex-col items-center">
           <div>
-            <p className="hidden">Software Engineer</p>
+            <p className="hidden lg:block text-xl my-1">Software Engineer</p>
             <h1 className="text-5xl">Samuel Gerungan</h1>
+            <p className="my-5 leading-relaxed ml-1">
+              Software Engineer with an eye for design, passion for innovation,
+              and meticulous attention to detail
+            </p>
           </div>
+        </div>
+        <div className="">
+          <Image
+            className="object-contain object-center rounded-3xl"
+            alt="hero-image"
+            src="/self-portrait.jpg"
+            width={600}
+            height={720}
+            priority
+          />
         </div>
       </main>
     </>
