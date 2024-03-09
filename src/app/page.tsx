@@ -33,8 +33,8 @@ const Home = () => {
               <p className="hidden lg:block text-xl my-1">Software Engineer</p>
             </h1>
             <p className="my-5 leading-relaxed ml-1">
-              Software Engineer with an eye for design, passion for innovation,
-              and meticulous attention to detail
+              An eye for design, passion for innovation, and meticulous
+              attention to detail
             </p>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
