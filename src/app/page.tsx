@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 
 const Home = () => {
@@ -12,9 +13,11 @@ const Home = () => {
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center justify-center">
             <a className="flex mr-5 hover:text-cyan-500 cursor-pointer">Home</a>
-            <a className="flex mr-5 hover:text-cyan-500 cursor-pointer">
-              About
-            </a>
+            <Link href="/about">
+              <span className="flex mr-5 hover:text-cyan-500 cursor-pointer">
+                About
+              </span>
+            </Link>
             <a className="flex mr-5 hover:text-cyan-500 cursor-pointer">
               Contact
             </a>
