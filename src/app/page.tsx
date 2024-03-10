@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 
 const Home = () => {
@@ -12,9 +13,11 @@ const Home = () => {
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center justify-center">
             <a className="flex mr-5 hover:text-cyan-500 cursor-pointer">Home</a>
-            <a className="flex mr-5 hover:text-cyan-500 cursor-pointer">
-              About
-            </a>
+            <Link href="/about">
+              <span className="flex mr-5 hover:text-cyan-500 cursor-pointer">
+                About
+              </span>
+            </Link>
             <a className="flex mr-5 hover:text-cyan-500 cursor-pointer">
               Contact
             </a>
@@ -52,7 +55,7 @@ const Home = () => {
 
       <footer className="text-slate-200 body-font">
         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-          <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <a className="flex title-font font-medium items-center md:justify-start justify-center text-slate-100">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -67,11 +70,11 @@ const Home = () => {
             </svg>
             <span className="ml-3 text-xl">Sam Gerungan</span>
           </a>
-          <p className="text-sm text-slate-200 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+          <p className="text-sm text-slate-300 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
             © 2024 Samuel Gerungan —
             <a
               href="https://https://github.com/Sam-T-G"
-              className="text-gray-600 ml-1"
+              className="text-cyan-200 ml-1"
               rel="noopener noreferrer"
               target="_blank"
             >
