@@ -2,12 +2,12 @@ import React from "react";
 
 const ContactCard = () => {
 	return (
-		<div className="max-w-2xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+		<div className="max-w-2xl mx-auto py-12 bg-white shadow-lg rounded-lg overflow-hidden">
 			<div className="px-4 py-6">
 				<h1 className="text-gray-600 text-center font-semibold text-xl">
 					Contact Information
 				</h1>
-				<ul className="mt-4 flex flex-col md:flex-row justify-center align-middle">
+				<ul className="mt-6 flex flex-col md:flex-row justify-center align-middle">
 					<div className="mx-6">
 						<li className="flex items-center py-2">
 							<svg
