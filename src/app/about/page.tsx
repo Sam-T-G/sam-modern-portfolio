@@ -18,7 +18,7 @@ const features = [
 	{
 		name: "Adept and refined visual taste.",
 		description:
-			"Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+			"Through the lens of both my physical camera and my experience in the quickly evolving online market, I have a very vibrant knowledge and sense of awareness on the latest trends and visual tastes that convert attention of the modern-day consumer.",
 		icon: ViewfinderCircleIcon,
 	},
 	{
