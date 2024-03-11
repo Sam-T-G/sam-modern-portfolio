@@ -1,65 +1,68 @@
 import React from "react";
 
-const Contact = () => {
+const ContactCard = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-semibold text-gray-800 mb-6">Contact Me</h1>
-      <div className="max-w-lg mx-auto">
-        <form>
-          <div className="mb-4">
-            <label
-              className="block text-gray-700 text-sm font-bold mb-2"
-              htmlFor="name"
+    <div className="max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+      <div className="px-4 py-6">
+        <h1 className="text-center font-semibold text-xl">
+          Contact Information
+        </h1>
+        <ul className="mt-4">
+          <li className="flex items-center py-2">
+            <svg
+              className="h-6 w-6 text-gray-600 mr-3"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              Name
-            </label>
-            <input
-              className="border-2 border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-cyan-500"
-              id="name"
-              type="text"
-              placeholder="Enter your name"
-            />
-          </div>
-          <div className="mb-4">
-            <label
-              className="block text-gray-700 text-sm font-bold mb-2"
-              htmlFor="email"
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+              />
+            </svg>
+            <span className="text-gray-600">123 Street Name, City</span>
+          </li>
+          <li className="flex items-center py-2">
+            <svg
+              className="h-6 w-6 text-gray-600 mr-3"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              Email
-            </label>
-            <input
-              className="border-2 border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-cyan-500"
-              id="email"
-              type="email"
-              placeholder="Enter your email"
-            />
-          </div>
-          <div className="mb-4">
-            <label
-              className="block text-gray-700 text-sm font-bold mb-2"
-              htmlFor="message"
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+              />
+            </svg>
+            <span className="text-gray-600">contact@example.com</span>
+          </li>
+          <li className="flex items-center py-2">
+            <svg
+              className="h-6 w-6 text-gray-600 mr-3"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              Message
-            </label>
-            <textarea
-              className="border-2 border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-cyan-500"
-              id="message"
-              rows={4}
-              placeholder="Enter your message"
-            ></textarea>
-          </div>
-          <div className="flex items-center justify-center">
-            <button
-              className="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-              type="submit"
-            >
-              Send Message
-            </button>
-          </div>
-        </form>
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+              />
+            </svg>
+            <span className="text-gray-600">+1234567890</span>
+          </li>
+        </ul>
       </div>
     </div>
   );
 };
 
-export default Contact;
+export default ContactCard;
