@@ -4,7 +4,7 @@ const ContactCard = () => {
   return (
     <div className="max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
       <div className="px-4 py-6">
-        <h1 className="text-center font-semibold text-xl">
+        <h1 className="text-gray-600 text-center font-semibold text-xl">
           Contact Information
         </h1>
         <ul className="mt-4">
