@@ -57,7 +57,7 @@ const ContactCard = () => {
                 d="M12 6v6m0 0v6m0-6h6m-6 0H6"
               />
             </svg>
-            <span className="text-gray-600">9098106275</span>
+            <span className="text-gray-600">+1(909)-810-6275</span>
           </li>
         </ul>
       </div>
