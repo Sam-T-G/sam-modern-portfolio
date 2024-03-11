@@ -1,10 +1,7 @@
 import React from "react";
 import {
 	CheckBadgeIcon,
-	CloudArrowUpIcon,
 	GlobeAltIcon,
-	LockClosedIcon,
-	ServerIcon,
 	ViewfinderCircleIcon,
 } from "@heroicons/react/20/solid";
 
@@ -18,7 +15,7 @@ const features = [
 	{
 		name: "Adept and refined visual taste.",
 		description:
-			"Through the lens of both my physical camera and my experience in the quickly evolving online market, I have a very vibrant knowledge and sense of awareness on the latest trends and visual tastes that convert attention of the modern-day consumer.",
+			"Through the lens of both my physical camera and my experience in the quickly evolving online market, I have a vibrant knowledge and sense of awareness on the latest trends and visual tastes that convert attention of the modern-day consumer.",
 		icon: ViewfinderCircleIcon,
 	},
 	{
