@@ -4,6 +4,7 @@ import {
 	GlobeAltIcon,
 	ViewfinderCircleIcon,
 } from "@heroicons/react/20/solid";
+import Image from "next/image";
 import { ImagesSlider } from "@/components/images-slider";
 
 const features = [
@@ -28,8 +29,9 @@ const features = [
 ];
 
 const images = [
-	"https://images.unsplash.com/photo-1485433592409-9018e83a1f0d?q=80&w=1814&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-	"https://images.unsplash.com/photo-1483982258113-b72862e6cff6?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+	"../public/bali-rice-terrace.jpg",
+	"../public/culver-modern.jpg",
+	"../public/bali-sunset.jpg",
 ];
 
 const children = [];
@@ -37,7 +39,7 @@ const children = [];
 const About: React.FC = () => {
 	return (
 		<main className="text-slate-100 body-font">
-			<div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+			{/* <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 				<div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
 					<p className="hidden lg:block text-xl my-1">About Me</p>
 					<h1 className="title-font sm:text-4xl text-5xl mb-4 font-medium">
@@ -46,13 +48,15 @@ const About: React.FC = () => {
 					<p className="my-1 leading-relaxed ml-1"></p>
 				</div>
 				<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-					<img
+					<Image
 						className="object-contain object-center rounded-3xl"
+						width={1280}
+						height={500}
 						alt="hero-image"
-						src="/your-image.jpg"
+						src="/bali-rice-terrace.jpg"
 					/>
 				</div>
-			</div>
+			</div> */}
 			<div className="overflow-hidden bg-white py-24 sm:py-32">
 				<div className="mx-auto max-w-7xl px-6 lg:px-8">
 					<div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
@@ -89,18 +93,19 @@ const About: React.FC = () => {
 							</div>
 						</div>
 						<div>
-							{/* <img
-								src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+							<Image
+								src="/culver-modern.jpg"
 								alt="Product screenshot"
 								className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
 								width={2432}
 								height={1442}
-							/> */}
-							<ImagesSlider
+							/>
+							{/* <ImagesSlider
 								className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
 								images={images}>
-								{/* Empty children */}
-							</ImagesSlider>
+								children={null}
+								overlay={false}
+							</ImagesSlider> */}
 						</div>
 					</div>
 				</div>
