@@ -8,7 +8,7 @@ const ContactCard = () => {
 					Contact Information
 				</h1>
 				<ul className="mt-6 flex flex-col md:flex-row justify-center align-middle">
-					<div className="mx-6">
+					<div className="mx-7">
 						<li className="flex items-center py-2">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +63,7 @@ const ContactCard = () => {
 							<span className="text-gray-600">+1(909)-810-6275</span>
 						</li>
 					</div>
-					<div className="mx-6">
+					<div className="mx-7">
 						<li className="flex items-center py-2">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
