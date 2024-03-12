@@ -61,8 +61,8 @@ const About: React.FC = () => {
 									over six years. Self taught in the visual arts and with over 9
 									years of formal training in many musical disciplines, I have
 									capitalized on my artistic talents and training to bring
-									together high quality products with meticulous attention to
-									details.
+									together high quality products with a meticulous attention to
+									detail.
 								</p>
 								<dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
 									{features.map((feature) => (
