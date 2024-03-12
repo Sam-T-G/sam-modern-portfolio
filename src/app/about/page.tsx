@@ -4,6 +4,7 @@ import {
 	GlobeAltIcon,
 	ViewfinderCircleIcon,
 } from "@heroicons/react/20/solid";
+import { ImagesSlider } from "@/components/images-slider";
 
 const features = [
 	{
@@ -26,6 +27,13 @@ const features = [
 	},
 ];
 
+const images = [
+	"https://images.unsplash.com/photo-1485433592409-9018e83a1f0d?q=80&w=1814&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+	"https://images.unsplash.com/photo-1483982258113-b72862e6cff6?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+];
+
+const children = [];
+
 const About: React.FC = () => {
 	return (
 		<main className="text-slate-100 body-font">
@@ -35,9 +43,7 @@ const About: React.FC = () => {
 					<h1 className="title-font sm:text-4xl text-5xl mb-4 font-medium">
 						Samuel Timothy Gerungan
 					</h1>
-					<p className="my-1 leading-relaxed ml-1">
-						blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
-					</p>
+					<p className="my-1 leading-relaxed ml-1"></p>
 				</div>
 				<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
 					<img
@@ -63,8 +69,8 @@ const About: React.FC = () => {
 									over six years. Self taught in the visual arts and with over 9
 									years of formal training in many musical disciplines, I have
 									capitalized on my artistic talents and training to bring
-									together high quality products with meticulous attention to
-									details.
+									together high quality products with a meticulous attention to
+									detail.
 								</p>
 								<dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
 									{features.map((feature) => (
@@ -83,13 +89,18 @@ const About: React.FC = () => {
 							</div>
 						</div>
 						<div>
-							<img
+							{/* <img
 								src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
 								alt="Product screenshot"
 								className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
 								width={2432}
 								height={1442}
-							/>
+							/> */}
+							<ImagesSlider
+								className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+								images={images}>
+								{/* Empty children */}
+							</ImagesSlider>
 						</div>
 					</div>
 				</div>
