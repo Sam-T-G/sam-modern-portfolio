@@ -35,9 +35,7 @@ const About: React.FC = () => {
 					<h1 className="title-font sm:text-4xl text-5xl mb-4 font-medium">
 						Samuel Timothy Gerungan
 					</h1>
-					<p className="my-1 leading-relaxed ml-1">
-						blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
-					</p>
+					<p className="my-1 leading-relaxed ml-1"></p>
 				</div>
 				<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
 					<img
