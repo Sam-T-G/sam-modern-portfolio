@@ -21,7 +21,7 @@ const Footer = () => {
 				<p className="text-sm text-slate-300 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
 					© 2024 Samuel Gerungan —
 					<a
-						href="https://https://github.com/Sam-T-G"
+						href="https://github.com/Sam-T-G"
 						className="text-cyan-200 ml-1"
 						rel="noopener noreferrer"
 						target="_blank">
