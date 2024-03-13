@@ -46,7 +46,7 @@ const Navbar = () => {
 					</Link>
 				</nav>
 				<Link href="/projects">
-					<button className="inline-flex items-center border-indigo-600 border-4 bg-white text-indigo-600 font-semibold py-1 px-3 focus:outline-none hover:bg-indigo-600 transform transition-transform hover:scale-110 hover:text-white rounded-lg text-base mt-4 md:mt-0">
+					<button className="inline-flex items-center border-indigo-600 border-2 bg-white text-indigo-600 font-semibold py-1 px-3 focus:outline-none hover:bg-indigo-600 transform transition-transform hover:scale-110 hover:text-white rounded-lg text-base mt-4 md:mt-0">
 						Projects
 					</button>
 				</Link>
