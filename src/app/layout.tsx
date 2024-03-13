@@ -7,22 +7,22 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sam Portfolio",
-  description: "Samuel Gerungan's Portfolio",
+	title: "Sam Portfolio",
+	description: "Samuel Gerungan's Portfolio",
 };
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body className={inter.className}>
-        <Navbar />
-        {children}
-        <Footer />
-      </body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body className={inter.className}>
+				<Navbar />
+				{children}
+				<Footer />
+			</body>
+		</html>
+	);
 }
