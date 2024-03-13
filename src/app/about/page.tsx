@@ -78,7 +78,9 @@ const About: React.FC = () => {
 								</p>
 								<dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
 									{features.map((feature) => (
-										<div key={feature.name} className="relative pl-9">
+										<div
+											key={feature.name}
+											className="relative pl-9 transform transition-transform hover:scale-110">
 											<dt className="inline font-semibold text-gray-900">
 												<feature.icon
 													className="absolute left-1 top-1 h-5 w-5 text-indigo-600"
