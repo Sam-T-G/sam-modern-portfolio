@@ -37,7 +37,7 @@ const Footer = () => {
 					</a>
 				</p>
 				<span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-					<a className="ml-3 text-gray-500">
+					<a href="https://github.com/Sam-T-G" className="ml-3 text-gray-500">
 						<svg
 							className="w-5 h-5"
 							xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,9 @@ const Footer = () => {
 							/>
 						</svg>
 					</a>
-					<a className="ml-3 text-gray-500">
+					<a
+						href="https://www.linkedin.com/in/samuel-gerungan-375b40ab/"
+						className="ml-3 text-gray-500">
 						<svg
 							fill="currentColor"
 							stroke="currentColor"
@@ -65,7 +67,7 @@ const Footer = () => {
 							<circle cx="4" cy="4" r="2" stroke="none"></circle>
 						</svg>
 					</a>
-					<a className="ml-3 text-gray-500">
+					<a href="" className="ml-3 text-gray-500">
 						<svg
 							fill="none"
 							stroke="currentColor"
