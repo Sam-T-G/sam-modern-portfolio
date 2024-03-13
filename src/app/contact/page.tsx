@@ -113,7 +113,7 @@ const ContactCard = () => {
 								/>
 							</svg>
 							<a
-								href="https://github.com/Sam-T-G"
+								href="https://www.instagram.com/samuel_gerungan/"
 								target="_blank"
 								className="text-gray-600">
 								Instagram
