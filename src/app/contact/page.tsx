@@ -96,7 +96,7 @@ const ContactCard = () => {
 								/>
 							</svg>
 							<a
-								href="https://github.com/Sam-T-G"
+								href="https://www.linkedin.com/in/samuel-gerungan-375b40ab/"
 								target="_blank"
 								className="text-gray-600">
 								LinkedIn
@@ -116,7 +116,7 @@ const ContactCard = () => {
 								href="https://github.com/Sam-T-G"
 								target="_blank"
 								className="text-gray-600">
-								Portfolio
+								Instagram
 							</a>
 						</li>
 					</div>
