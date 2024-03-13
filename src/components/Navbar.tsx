@@ -26,29 +26,27 @@ const Navbar = () => {
 							d="M178.609 16.75C173.47 125.962 115.282 198.356 17.07 217.726L3.003 220.5l-.002 13.837L3 248.173l17.624-9.153c38.659-20.078 53.373-29.1 72.123-44.219 31.003-25 46.332-44.341 67.458-85.115 30.347-58.568 53.686-87.754 83.503-104.424l5.792-3.238-35.098-.012L179.303 2l-.694 14.75"
 							fill-rule="evenodd"></path>
 					</svg>
-					<h1 className="ml-3 text-2xl hover:text-cyan-500 cursor-pointer">
-						Sam Gerungan
-					</h1>
+					<h1 className="ml-3 text-2xl cursor-pointer">Sam Gerungan</h1>
 				</a>
 				<nav className="md:ml-auto flex flex-wrap items-center justify-center">
 					<Link href="/">
-						<span className="flex mr-5 hover:text-cyan-500 cursor-pointer">
+						<span className="flex mr-5 transform transition-transform hover:scale-110 cursor-pointer">
 							Home
 						</span>
 					</Link>
 					<Link href="/about">
-						<span className="flex mr-5 hover:text-cyan-500 cursor-pointer">
+						<span className="flex mr-5 transform transition-transform hover:scale-110 cursor-pointer">
 							About
 						</span>
 					</Link>
 					<Link href="/contact">
-						<span className="flex mr-5 hover:text-cyan-500 cursor-pointer">
+						<span className="flex mr-5 transform transition-transform hover:scale-110 cursor-pointer">
 							Contact
 						</span>
 					</Link>
 				</nav>
 				<Link href="/projects">
-					<button className="inline-flex items-center bg-gray-100 text-cyan-800 border-0 py-1 px-3 focus:outline-none hover:bg-cyan-500 hover:text-white rounded text-base mt-4 md:mt-0">
+					<button className="inline-flex items-center border-indigo-600 border-4 bg-white text-indigo-600 font-semibold py-1 px-3 focus:outline-none hover:bg-indigo-600 transform transition-transform hover:scale-110 hover:text-white rounded-lg text-base mt-4 md:mt-0">
 						Projects
 					</button>
 				</Link>
