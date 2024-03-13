@@ -67,7 +67,9 @@ const Footer = () => {
 							<circle cx="4" cy="4" r="2" stroke="none"></circle>
 						</svg>
 					</a>
-					<a href="" className="ml-3 text-gray-500">
+					<a
+						href="https://www.instagram.com/samuel_gerungan/"
+						className="ml-3 text-gray-500">
 						<svg
 							fill="none"
 							stroke="currentColor"
