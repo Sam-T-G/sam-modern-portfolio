@@ -4,8 +4,8 @@ import Link from "next/link";
 const Navbar = () => {
 	return (
 		<header className="text-slate-100 body-font">
-			<div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between">
-				<a className="flex font-medium items-center mb-4 md:mb-0">
+			<div className="container mx-auto flex flex-wrap p-5 md:flex-row items-center justify-between">
+				<a className="flex font-medium items-center md:mb-0">
 					<div className="text-indigo-600">
 						<svg
 							className="w-8 h-8"
@@ -27,7 +27,9 @@ const Navbar = () => {
 							</g>{" "}
 						</svg>
 					</div>
-					<h1 className="ml-3 text-2xl cursor-default">Sam Gerungan</h1>
+					<h1 className="hidden lg:block ml-3 text-2xl cursor-default">
+						Sam Gerungan
+					</h1>
 				</a>
 				<div className="flex flex-wrap items-center">
 					<nav className="md:ml-auto flex flex-wrap items-center justify-center">
