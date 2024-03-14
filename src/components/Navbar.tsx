@@ -4,7 +4,7 @@ import Link from "next/link";
 const Navbar = () => {
 	return (
 		<header className="text-slate-100 body-font">
-			<div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+			<div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between">
 				<a className="flex font-medium items-center mb-4 md:mb-0">
 					<div className="text-indigo-600">
 						<svg
@@ -29,28 +29,30 @@ const Navbar = () => {
 					</div>
 					<h1 className="ml-3 text-2xl cursor-default">Sam Gerungan</h1>
 				</a>
-				<nav className="md:ml-auto flex flex-wrap items-center justify-center">
-					<Link href="/">
-						<span className="flex mr-5 transform transition-transform hover:scale-110 cursor-pointer">
-							Home
-						</span>
+				<div className="flex flex-wrap items-center">
+					<nav className="md:ml-auto flex flex-wrap items-center justify-center">
+						<Link href="/">
+							<span className="flex mr-5 transform transition-transform hover:scale-110 cursor-pointer">
+								Home
+							</span>
+						</Link>
+						<Link href="/about">
+							<span className="flex mr-5 transform transition-transform hover:scale-110 cursor-pointer">
+								About
+							</span>
+						</Link>
+						<Link href="/contact">
+							<span className="flex mr-5 transform transition-transform hover:scale-110 cursor-pointer">
+								Contact
+							</span>
+						</Link>
+					</nav>
+					<Link href="/projects">
+						<button className="inline-flex items-center border-indigo-600 border-2 bg-white text-indigo-600 font-semibold py-1 px-3 focus:outline-none hover:bg-indigo-600 transform transition-transform hover:scale-110 hover:text-white rounded-lg text-base">
+							Projects
+						</button>
 					</Link>
-					<Link href="/about">
-						<span className="flex mr-5 transform transition-transform hover:scale-110 cursor-pointer">
-							About
-						</span>
-					</Link>
-					<Link href="/contact">
-						<span className="flex mr-5 transform transition-transform hover:scale-110 cursor-pointer">
-							Contact
-						</span>
-					</Link>
-				</nav>
-				<Link href="/projects">
-					<button className="inline-flex items-center border-indigo-600 border-2 bg-white text-indigo-600 font-semibold py-1 px-3 focus:outline-none hover:bg-indigo-600 transform transition-transform hover:scale-110 hover:text-white rounded-lg text-base mt-4 md:mt-0">
-						Projects
-					</button>
-				</Link>
+				</div>
 			</div>
 		</header>
 	);
