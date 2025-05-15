@@ -1,12 +1,13 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
 	return (
 		<header className="text-slate-100 body-font">
 			<div className="container mx-auto flex flex-wrap p-5 md:flex-row items-center justify-between">
 				<a className="flex font-medium items-center md:mb-0">
-					<div className="text-indigo-600">
+					<div className="text-black">
 						<svg
 							className="w-8 h-8"
 							version="1.0"
